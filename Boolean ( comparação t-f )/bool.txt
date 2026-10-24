@@ -1,0 +1,20 @@
+A programmer writes a program and the program asks questions.
+
+A computer executes the program and provides the answers. The program must be able to react according to the received answers.
+
+Fortunately, computers know only two kinds of answers:
+
+yes, this is true;
+no, this is false.
+You will never get a response like Let me think...., I don't know, or Probably yes, but I don't know for sure.
+
+To ask questions, Python uses a set of very special operators.
+
+= is an assignment operator, e.g., a = b assigns a with the value of b;
+== is the question are these values equal? so a == b compares a and b.
+
+Inequality: the not equal to operator (!=)
+The != (not equal to) operator compares the values of two operands, too. Here is the difference:
+if they are equal, the result of the comparison is False.
+If they are not equal, the result of the comparison is True.
+
