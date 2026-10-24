@@ -1,0 +1,21 @@
+F-STRINGS
+
+codigo = 105
+nome = "José Santana"
+salario = 1653.12
+ativo = True
+
+print(f"Código: {codigo}")
+print(f"Nome: {nome}")
+print(f"Salário: {salario:.2f}")
+print(f"Ativo: {ativo}")
+
+Placeholders ( marcadores de formato )
+
+• %d: Usado para números inteiros.
+• %s: Usado para strings (textos).
+• %.2f: Usado para números de ponto flutuante (decimais). O .2 indica que você quer exibir apenas 2 casas decimais.
+• %r: Usado para a representação bruta (representação de depuração), muito comum para exibir valores booleanos como True ou False.
+
+
+\n - new line

@@ -1,0 +1,9 @@
+A function doesn't belong to any data ‒ it gets data, it may create new data and it (generally) produces a result.
+
+a function is owned by the whole code.
+
+In general, a typical function invocation may look like this:
+
+result = function(arg)
+ 
+The function takes an argument, does something, and returns a result.

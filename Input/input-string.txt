@@ -1,0 +1,1 @@
+input() sempre retorna o dado como um texto (uma string).

@@ -1,0 +1,8 @@
+3.2.2 An infinite loop
+
+An infinite loop, also called an endless loop, is a sequence of instructions in a program which repeat indefinitely (loop endlessly.)
+
+Here's an example of a loop that is not able to finish its execution:
+
+while True:
+    print("I'm stuck inside a loop.")

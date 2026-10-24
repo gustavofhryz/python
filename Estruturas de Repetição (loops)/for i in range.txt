@@ -1,0 +1,39 @@
+for i in range(0, 11):
+    if i % 2 != 0:
+        print(i)
+
+for i in range(100):
+    # do_something()
+    pass
+
+for i in range(10):
+    print("The value of i is currently", i)
+
+In Python, for i in range() is a statement used to repeat a block of code a specific number of times. It sets up what is known as a for loop. 
+
+Here is the breakdown of what each part means:
+
+for: The keyword that starts the loop.
+i: A temporary variable (often called a loop counter or iterator). On every turn of the loop, i automatically updates to hold the current number in the sequence.
+in: A keyword that links the variable to the sequence of numbers.
+range(): A built-in Python function that generates a sequence of mathematical numbers. 
+the range() function accepts only integers as its arguments, and generates sequences of integers.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+my_list = []  # Creating an empty list.
+
+for i in range(5):
+    my_list.append(i + 1)
+
+print(my_list)
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+my_list = [10, 1, 8, 3, 5]
+total = 0
+
+for i in range(len(my_list)):
+    total += my_list[i]
+
+print(total)

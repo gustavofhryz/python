@@ -1,0 +1,8 @@
+Um dicionário em Python é definido utilizando chaves { }, contendo pares de chave e valor separados por dois pontos (:).
+
+Explicação:
+Em Python, os dicionários são estruturas de dados que armazenam elementos no formato de chave-valor. 
+Eles são delimitados por chaves {} e cada par chave-valor é separado por dois pontos :, exatamente como descrito no enunciado.
+Exemplo:
+python
+meu_dicionario = {"nome": "Carlos", "idade": 45}

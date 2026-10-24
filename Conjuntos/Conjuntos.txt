@@ -1,0 +1,13 @@
+Os conjuntos em Python não suportam indexação e nem fatiamento, caso queira acessar os seus valores é necessário converter o conjunto para lista.
+
+• Em indexação e fatiamento: Conjuntos (set) em Python são coleções não ordenadas de elementos únicos. 
+Como não possuem uma ordem definida, eles não suportam indexação (ex: meu_conjunto[0]) nem fatiamento (ex: meu_conjunto[1:3]).
+
+• Conversão para lista: Se você precisar acessar um valor por um índice específico, 
+a forma mais comum é converter o conjunto em uma lista primeiro usando list(meu_conjunto).
+
+Um conjunto em Python é uma coleção que não possui objetos repetidos.
+
+Em Python, um conjunto (set) é estruturado especificamente para armazenar elementos únicos. 
+Isso significa que ele não permite objetos repetidos em sua coleção. 
+Caso você tente adicionar um item duplicado, o Python o ignorará automaticamente.

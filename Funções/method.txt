@@ -1,0 +1,11 @@
+A method is a specific kind of function ‒ it behaves like a function and looks like a function, but differs in the way in which it acts, and in its invocation style.
+
+A method does all these things, but is also able to change the state of a selected entity.
+
+A method is owned by the data it works for.
+
+This also means that invoking a method requires some specification of the data from which the method is invoked.
+
+A typical method invocation usually looks like this:
+
+result = data.method(arg)

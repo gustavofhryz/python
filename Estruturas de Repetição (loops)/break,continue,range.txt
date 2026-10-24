@@ -1,0 +1,9 @@
+break
+
+interrompe a repetição do while
+
+continue
+
+pula um ciclo de iteração dos comandos for e while
+
+Em Python, a função built-in range() é utilizada exatamente para gerar uma sequência de números inteiros, muito comum para controlar a quantidade de repetições em laços for.

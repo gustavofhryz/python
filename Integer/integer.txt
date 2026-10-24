@@ -1,0 +1,1 @@
+4 is an integer number, whereas 4.0 ( or 4. ) is a floating-point number.

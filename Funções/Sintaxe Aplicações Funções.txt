@@ -1,0 +1,5 @@
+DEF - determina o início da função
+PARÂMETROS - são informações que a função pode receber para o seu processamento ( podem existir ou não )
+CORPO A FUNÇÃO - é o local em que é aplicada a sequência de instruções, como entrada, processamento e/ou saída
+RETURN - deve ser utilizado quando houver necessidade de retornar alguma informação para a ação da função
+INDENTAÇÃO - deve possuir quatro espaços em branco e pular duas linhas para o próximo bloco de instruções ( próxima função ou programação principal )
