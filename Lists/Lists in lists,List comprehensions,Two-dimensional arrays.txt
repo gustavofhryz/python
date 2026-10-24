@@ -1,0 +1,43 @@
+Lists in lists (arrays)
+
+------------------------------------------------------------
+
+row = []
+ 
+for i in range(8):
+    row.append(WHITE_PAWN)
+
+------------------------------------------------------------
+
+List comprehensions
+
+------------------------------------------------------------
+
+A list comprehension is actually a list, but created on-the-fly during program execution, and is not described statically.
+
+Take a look at the snippet:
+
+
+row = [WHITE_PAWN for i in range(8)]
+ 
+The part of the code placed inside the brackets specifies:
+
+the data to be used to fill the list (WHITE_PAWN)
+the clause specifying how many times the data occurs inside the list (for i in range(8))
+
+------------------------------------------------------------
+
+Two-dimensional arrays  
+
+------------------------------------------------------------
+
+Let's also assume that a predefined symbol named EMPTY designates an empty field on the chessboard.
+
+So, if we want to create a list of lists representing the whole chessboard, it may be done in the following way:
+
+
+board = []
+ 
+for i in range(8):
+    row = [EMPTY for i in range(8)]
+    board.append(row)

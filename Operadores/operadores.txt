@@ -1,0 +1,11 @@
+• Unários (+, -, ~): Operam em um único número (ex: -x para tornar o número negativo);
+
+• Aritméticos Multiplicativos (**, *, /, //, %): Potência, multiplicação, divisão real, divisão inteira e resto da divisão;
+
+• Aritméticos Aditivos (+, -): Soma e subtração tradicionais;
+
+• Comparação (<, >, <=, >=, ==, !=): Comparam dois valores e sempre geram um booleano (True ou False);
+
+• != significa "diferente de" (como mostrado no seu código do PyCharm: var != 0 resultou em False porque var era 0);
+
+• Lógicos (not, and, or): Usados para combinar ou inverter condições booleanas.

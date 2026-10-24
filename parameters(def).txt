@@ -1,0 +1,16 @@
+parameters exist only inside functions in which they have been defined, and the only place where the parameter can be defined is 
+a space between a pair of parentheses in the def statement;
+
+assigning a value to the parameter is done at the time of the function's invocation, by specifying the corresponding argument.
+
+def function(parameter):
+    ###
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+def message(what, number):
+    print("Enter", what, "number", number)
+ 
+message("telephone", 11)
+message("price", 5)
+message("number", "number")

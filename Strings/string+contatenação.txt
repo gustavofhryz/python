@@ -1,0 +1,2 @@
+# Adição de String = concatenação
+print("hello " + "world")

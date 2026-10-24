@@ -1,0 +1,98 @@
+list is a collection of elements, but each element is a scalar.
+
+The elements inside a list may have different types.
+Some of them may be integers, others floats, and yet others may be lists.
+
+---------------------------------------------------------------------------------------------------------
+
+making changes inside a list
+
+numbers = [10, 5, 7, 2, 1]
+print("Original list contents:", numbers)  # Printing original list contents.
+ 
+numbers[0] = 111
+print("\nPrevious list contents:", numbers)  # Printing previous list contents.
+ 
+numbers[1] = numbers[4]  # Copying value of the fifth element to the second.
+print("New list contents:", numbers)  # Printing current list contents.
+
+---------------------------------------------------------------------------------------------------------
+
+print(numbers) # Printing the whole list.
+
+If you want to check the list's current length, you can use a function named len() (its name comes from length).
+
+The function takes the list's name as an argument, and returns the number of elements currently stored inside the list (in other words ‒ the list's length).
+
+---------------------------------------------------------------------------------------------------------
+
+numbers = [10, 5, 7, 2, 1]
+print("Original list contents:", numbers)  # Printing original list contents.
+
+numbers[0] = 111
+print("\nPrevious list contents:", numbers)  # Printing previous list contents.
+
+numbers[1] = numbers[4]  # Copying value of the fifth element to the second.
+print("Previous list contents:", numbers)  # Printing previous list contents.
+
+print("\nList length:", len(numbers))  # Printing the list's length.
+
+----------------------------------------------------------------------------------------------------------
+
+Any of the list's elements may be removed at any time ‒ this is done with an instruction named del (delete). Note: it's an instruction, not a function.
+
+You have to point to the element to be removed ‒ it'll vanish from the list, and the list's length will be reduced by one.
+
+del numbers[1]
+print(len(numbers))
+print(numbers)
+
+my_list = [10, 8, 6, 4, 2]
+del my_list[1:3]
+print(my_list)
+
+----------------------------------------------------------------------------------------------------------
+
+numbers = [10, 5, 7, 2, 1]
+print("Original list content:", numbers)  # Printing original list content.
+
+numbers[0] = 111
+print("\nPrevious list content:", numbers)  # Printing previous list content.
+
+numbers[1] = numbers[4]  # Copying value of the fifth element to the second.
+print("Previous list content:", numbers)  # Printing previous list content.
+
+print("\nList's length:", len(numbers))  # Printing previous list length.
+
+###
+
+del numbers[1]  # Removing the second element from the list.
+print("New list's length:", len(numbers))  # Printing new list length.
+print("\nNew list content:", numbers)  # Printing current list content.
+
+###
+
+---------------------------------------------------------------------------------------------------------
+
+You can use the sort() method to sort elements of a list, e.g.:
+
+
+lst = [5, 3, 1, 2, 4]
+print(lst)
+ 
+lst.sort()
+print(lst)  # outputs: [1, 2, 3, 4, 5]
+ 
+2. There is also a list method called reverse(), which you can use to reverse the list, e.g.:
+
+
+lst = [5, 3, 1, 2, 4]
+print(lst)
+ 
+lst.reverse()
+print(lst)  # outputs: [4, 2, 1, 3, 5]
+
+---------------------------------------------------------------------------------------------------------
+
+lista[início:fim]
+

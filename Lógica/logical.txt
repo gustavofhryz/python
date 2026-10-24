@@ -1,0 +1,7 @@
+AND
+OR
+NOT
+
+and → if both operands are true, the condition is true, e.g., (True and True) is True,
+or → if any of the operands are true, the condition is true, e.g., (True or False) is True,
+not → returns false if the result is true, and returns true if the result is false, e.g., not True is False.

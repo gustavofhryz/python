@@ -1,0 +1,19 @@
+my_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+to_find = 5
+found = False
+ 
+for i in range(len(my_list)):
+    found = my_list[i] == to_find
+    if found:
+        break
+ 
+if found:
+    print("Element found at index", i)
+else:
+    print("absent")
+
+------------------------------------------------------------------------------------------------------
+
+the target value is stored in the to_find variable;
+the current status of the search is stored in the found variable (True/False)
+when found becomes True, the for loop is exited.

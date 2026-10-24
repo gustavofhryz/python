@@ -1,0 +1,7 @@
+# Operações com Strings e Caracteres
+
+print("foo" * 5)
+print('x'*3)
+
+foofoofoofoofoo
+xxx

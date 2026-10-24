@@ -1,0 +1,9 @@
+# Comparadores em Strings
+
+print("hello" < "world")
+print("hello" == "world")
+print("hello" > "world")
+
+print("hello" == "hello")
+
+print("cat" < "dog")

@@ -1,0 +1,3 @@
+• / (Divisão Padrão / Float): Sempre retorna um número decimal (float), mesmo que a divisão seja exata.
+
+• // (Divisão Inteira / Floor Division): Divide os números e arredonda o resultado para baixo, retornando apenas a parte inteira (sem as casas decimais).

@@ -1,0 +1,24 @@
+Indexização
+
+numbers = [111, 7, 2, 1]
+print(numbers[-2])
+
+O comando print(numbers[-2]) serve para acessar e exibir um elemento da sua lista, mas contando de trás para frente.
+No Python, quando usamos um número negativo dentro dos colchetes [], estamos usando a indexação negativa. O resultado do seu código será 2.
+
+Aqui está como o Python enxerga a sua lista:
+• [111, 7, 2, 1]
+
+Se contarmos da esquerda para a direita (índices normais):
+• numbers[0] é 111
+• numbers[1] é 7
+• numbers[2] é 2
+• numbers[3] é 1
+
+Se contarmos da direita para a esquerda (índices negativos):
+• numbers[-1] é o último elemento (1)
+• numbers[-2] é o penúltimo elemento (2)
+• numbers[-3] é o antepenúltimo elemento (7)
+• numbers[-4] é o primeiro elemento (111)
+
+Essa é uma forma muito prática no Python para pegar o último ou o penúltimo item de uma lista sem precisar saber o tamanho exato dela.

@@ -1,0 +1,30 @@
+What does every Python variable have?
+
+a name;
+a value (the content of the container).
+
+Here are some correct, but not always convenient variable names:
+
+MyVariable
+i
+l
+t34
+Exchange_Rate
+counter
+days_to_christmas
+TheNameIsTooLongAndHardlyReadable
+
+These variable names are also correct:
+
+Adiós_Señora
+sûr_la_mer
+Einbahnstraße
+переменная.
+
+Python lets you use not only Latin letters but also characters specific to languages that use other alphabets.
+
+And now for some incorrect names:
+
+10t (does not begin with a letter)
+!important (does not begin with a letter)
+exchange rate (contains a space).
